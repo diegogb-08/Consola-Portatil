@@ -63,11 +63,11 @@
 .controlBotones {
     width: 7em;
     height: 10em;
-    border: 1px solid red;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    border-radius: 0 5em 5em 0;
 }
 
 .botonesDerechos {
@@ -84,6 +84,7 @@
 .separadorDerecho   {
     width: 5em;
     height: 2.5em;
+    display: flex;
 }
 
 .botonesRedondos {
@@ -93,32 +94,106 @@
     background-color: red;
     border-radius: 100%;
     display: flex;
+    flex-direction: row;
 }
 
 #triangulo {
     position: relative;
     bottom: 1em;
     right: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #cuadrado {
     position: relative;
     top: 1.2em;
     right: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #equis {
     position: relative;
     top: 1.1em;
     left: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #circulo {
     position: relative;
     bottom: 1.2em;
     left: 1.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.cuadradoInterior {
+    width: 0.8em;
+    height: 0.8em;
+    border: 2px solid white;
+}
+
+.trianguloInterior {
+    content: '';
+    height: 1em;
+    border-left: 2px solid white;
+    position: absolute;
+    transform: rotate(-25deg);
+    left: 0.2em;
+    position: relative;
+}
+
+.trianguloInterior::after {
+    content: '';
+    height: 1em;
+    border-left: 2px solid white;
+    position: absolute;
+    transform: rotate(50deg);
+    right: 0.35em;
+    bottom: 0.2em;
+}
+
+.trianguloInterior::before {
+    content: '';
+    height: 0.9em;
+    border-left: 2px solid white;
+    position: absolute;
+    transform: rotate(116deg);
+    right: 0.38em;
+    top: 0.35em;
+}
+
+.equisInterior {
+    content: '';
+    height: 1em;
+    border-left: 2px solid #fff;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 0.7em;
+}
+
+.equisInterior::after {
+    content: '';
+    height: 1.1em;
+    border-left: 2px solid #fff;
+    position: absolute;
+    transform: rotate(90deg);
+    left: -0.1em;
+}
+.circuloInterior {
+    width: 0.8em;
+    height: 0.8em;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+/*Hasta aquí la locura de los botones de la play */
 
 
 /* Aquí esta todo sobre la pantalla y sus botones */
