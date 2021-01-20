@@ -45,12 +45,12 @@
 }
 
 .esquina {
-    width: 5.7em;
+    width: 5.6em;
     height: 3em;
 }
 
 .separadorL1 {
-    width: 5.7em;
+    width: 5.6em;
     height: 1.5em;
 }
 
@@ -58,6 +58,27 @@
     border-radius: 3em 0 3em 0;
     border: 1px solid red;
 }
+
+.separadorR1 {
+    width: 5.6em;
+    height: 1.5em;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.lucecita {
+    width: 2em;
+    height: 1em;
+    border: 1px solid red;
+    flex-direction: column;
+}
+
+.botonR1 {
+    border-radius: 0 3em 0 3em;
+    border: 1px solid red;
+}
+
 
 /* Botones izquierdos de dirección + yostick */
 
@@ -95,24 +116,24 @@
 .joystick {
     width: 3em;
     height: 3em;
-    border: 1px solid red;
+    background-color: black;
     border-radius: 100%;
-    margin-left: 1em;
+    margin-left: 0.5em;
     margin-top: 1em;
 }
 
 .botonesDireccion {
     width: 1.6em;
     height: 1.6em;
-    border: 1px solid red;
-    background-color: red;
+    border: 1px solid black;
+    background-color: black;
     display: flex;
     flex-direction: row;
 }
 
 #arriba {
     position: relative;
-    bottom: 1em;
+    bottom: 0.5em;
     right: 0.9em;
     display: flex;
     justify-content: center;
@@ -123,7 +144,7 @@
 #izquierda {
     position: relative;
     top: 1.2em;
-    right: 1.5em;
+    right: 0.9em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,7 +153,7 @@
 
 #abajo {
     position: relative;
-    top: 1.1em;
+    top: 0.5em;
     left: 0.9em;
     display: flex;
     justify-content: center;
@@ -143,7 +164,7 @@
 #derecha {
     position: relative;
     bottom: 1.2em;
-    left: 1.4em;
+    left: 0.9em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,8 +204,8 @@
 .botonesRedondos {
     width: 1.6em;
     height: 1.6em;
-    border: 1px solid red;
-    background-color: red;
+    border: 1px solid black;
+    background-color: black;
     border-radius: 100%;
     display: flex;
     flex-direction: row;
@@ -291,7 +312,7 @@
 
 /* Aquí esta todo sobre la pantalla y sus botones */
 .pantalla {
-    width: 24em;
+    width: 24.5em;
     height: 13.5em;
     border: 1px solid red;
 }
@@ -304,10 +325,6 @@
     flex-direction: row;
 }
 
-#superior {
-    height: 1em;
-}
-
 .botonesPantalla {
     width: 5.2em;
     height: 1.3em;
@@ -315,6 +332,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Play', sans-serif;
+    color: white;
 }
 
 /* Aqui estan los botones inferiores */
@@ -322,7 +340,8 @@
 .botonHome {
     width: 3em;
     height: 1em;
-    border: 1px solid red;
+    border: 1px solid black;
+    background-color: black;
     border-radius: 0.5em 0.5em 3.5em 3.5em;
     display: flex;
     justify-content: center;
@@ -338,7 +357,8 @@
 .botonesVolumen {
     width: 1.5em;
     height: 1em;
-    border: 1px solid red;
+    border: 1px solid black;
+    background-color: black;
     border-radius: 1em;
     display: flex;
     justify-content: center;
@@ -360,12 +380,14 @@
 #psp {
     font-family: 'Play';
     font-size: 1.7em;
+    color: black;
 }
 
 .botonSelectStart {
     width: 3em;
     height: 1em;
-    border: 1px solid red;
+    border: 1px solid black;
+    background-color: black;
     border-radius: 0.5em 0.5em 3.5em 3.5em;
     display: flex;
     justify-content: center;
