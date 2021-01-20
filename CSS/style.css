@@ -15,68 +15,93 @@
 .parteIzquierda {
     width: 7em;
     height: 16em;
-    border: 1px solid red;
+    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
+    -webkit-box-shadow: inset 5px 1px 64px -3px rgba(0,0,0,0.84);
+    -moz-box-shadow: inset 5px 1px 64px -3px rgba(0,0,0,0.84);
+    box-shadow: inset 5px 1px 64px -3px rgba(0,0,0,0.84);
 }
 
 /* Esta parte central esta relacionada con la parte de la pantalla */
 .parteCentral {
     width: 26em;
     height: 16em;
-    border: 1px solid red;
+    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    -webkit-box-shadow: inset 5px 1px 64px -3px rgba(0,0,0,0.84);
+    -moz-box-shadow: inset 5px 1px 64px -3px rgba(0,0,0,0.84);
+    box-shadow: inset 5px 1px 64px -3px rgba(0,0,0,0.84);
+
 }
 
 .parteDerecha {
     width: 7em;
     height: 16em;
-    border: 1px solid red;
+    background-color: red;
     display: flex;
     flex-direction: column;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
+    -webkit-box-shadow: inset 5px 1px 64px -3px rgba(0,0,0,0.84);
+    -moz-box-shadow: inset 5px 1px 64px -3px rgba(0,0,0,0.84);
+    box-shadow: inset 5px 1px 64px -3px rgba(0,0,0,0.84);
+    
 }
 
 .esquina {
     width: 5.6em;
-    height: 3em;
+    height: 3.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .separadorL1 {
     width: 5.6em;
-    height: 1.5em;
+    height: 1.6em;
 }
 
 .botonL1 {
     border-radius: 3em 0 3em 0;
-    border: 1px solid red;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .separadorR1 {
     width: 5.6em;
-    height: 1.5em;
-    border: 1px solid red;
+    height: 1.6em;
     display: flex;
     flex-direction: column;
 }
 
 .lucecita {
-    width: 2em;
-    height: 1em;
-    border: 1px solid red;
+    width: 1.2em;
+    height: 0.7em;
     flex-direction: column;
+    border-radius: 30%;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    background-color: grey;
 }
 
 .botonR1 {
     border-radius: 0 3em 0 3em;
-    border: 1px solid red;
+    background-color: whitesmoke;
+    cursor: pointer;
+    -webkit-box-shadow: inset -1px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset -1px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: inset -1px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 
@@ -95,13 +120,17 @@
 .botonesIzquierda {
     width: 5em;
     height: 5em;
-    border: 1px solid red;
+    border: 3px solid red;
     border-radius: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-left: 1em;
+    -webkit-box-shadow: inset 0px 0px 45px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 45px -18px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 45px -18px rgba(0,0,0,0.75);
+
 }
 
 .separadorIzquierda {
@@ -120,6 +149,9 @@
     border-radius: 100%;
     margin-left: 0.5em;
     margin-top: 1em;
+    -webkit-box-shadow: inset 0px 0px 8px 0px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 8px 0px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 8px 0px rgba(255,255,255,1);
 }
 
 .botonesDireccion {
@@ -129,6 +161,7 @@
     background-color: black;
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 #arriba {
@@ -187,12 +220,15 @@
 .botonesDerechos {
     width: 5em;
     height: 5em;
-    border: 1px solid red;
+    border: 3px solid red;
     border-radius: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    -webkit-box-shadow: inset 0px 0px 45px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 45px -18px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 45px -18px rgba(0,0,0,0.75);
 }
 
 .separadorDerecho   {
@@ -209,6 +245,7 @@
     border-radius: 100%;
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
 
 #triangulo {
@@ -314,15 +351,21 @@
 .pantalla {
     width: 24.5em;
     height: 13.5em;
-    border: 1px solid red;
+    background-color: #808080;
+    -webkit-box-shadow: inset 10px 10px 56px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 56px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 10px 56px 0px rgba(0,0,0,0.75);
 }
 
 .margenPantalla {
     width: 26em;
     height: 1.5em;
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
+    background-color: red;
+    -webkit-box-shadow: inset 5px 1px 64px -22px rgba(0,0,0,0.84);
+    -moz-box-shadow: inset 5px 1px 64px -22px rgba(0,0,0,0.84);
+    box-shadow: inset 5px 1px 64px -22px rgba(0,0,0,0.84);
 }
 
 .botonesPantalla {
@@ -347,6 +390,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 #home {
@@ -364,12 +408,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 #volumen {
     font-size: 0.75em;
     margin-left: 0.4em;
     margin-right: 0.4em;
+    color: black;
+    font-weight: bold;
 }
 
 #masMenos {
@@ -393,9 +440,24 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .selectStart {
     font-size: 0.75em;
     margin-bottom: 0.3em;
+}
+
+.separadorLlavero {
+    width: 4em;
+    height: 1em;
+}
+
+.llavero {
+    border-radius: 0 1em 1em 4em;
+    margin-left: 0.7em;
+    background-color: white;
+    -webkit-box-shadow: inset 3px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 3px 4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: inset 3px 4px 5px 0px rgba(0,0,0,0.75);
 }
