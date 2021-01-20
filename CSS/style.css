@@ -50,17 +50,76 @@
     border: 1px solid red;
 }
 
+/* Botones izquierdos de dirección + yostick */
+
 .controlFlechas {
     width: 7em;
     height: 10em;
     border: 1px solid red;
 }
- 
+
+
+ /* Botones derechos (X O <> /\) */
 .controlBotones {
     width: 7em;
     height: 10em;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
 }
+
+.botonesDerechos {
+    width: 5em;
+    height: 5em;
+    border: 1px solid red;
+    border-radius: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.separadorDerecho   {
+    width: 5em;
+    height: 2.5em;
+}
+
+.botonesRedondos {
+    width: 1.6em;
+    height: 1.6em;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 100%;
+    display: flex;
+}
+
+#triangulo {
+    position: relative;
+    bottom: 1em;
+    right: 0.9em;
+}
+
+#cuadrado {
+    position: relative;
+    top: 1.2em;
+    right: 1.5em;
+}
+
+#equis {
+    position: relative;
+    top: 1.1em;
+    left: 0.9em;
+}
+
+#circulo {
+    position: relative;
+    bottom: 1.2em;
+    left: 1.4em;
+}
+
+
 
 /* Aquí esta todo sobre la pantalla y sus botones */
 .pantalla {
@@ -84,7 +143,6 @@
 .botonesPantalla {
     width: 5.2em;
     height: 1.3em;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
