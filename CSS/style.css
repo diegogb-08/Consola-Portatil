@@ -290,6 +290,11 @@
     border: 2px solid white;
 }
 
+.cuadradoInterior:active {
+    width: 0.7em;
+    height: 0.7em;
+}
+
 .trianguloInterior {
     content: '';
     height: 1em;
@@ -320,6 +325,11 @@
     top: 0.35em;
 }
 
+#triangulo:active {
+    width: 1.5em;
+    height: 1.5em;
+}
+
 .equisInterior {
     content: '';
     height: 1em;
@@ -343,6 +353,8 @@
     border: 2px solid white;
     border-radius: 100%;
 }
+
+
 
 /*Hasta aquí la locura de los botones de la play */
 
@@ -398,6 +410,11 @@
     margin-bottom: 0.3em;
 }
 
+#home:active {
+    width: 2.6em;
+    height: 1em;
+}
+
 .botonesVolumen {
     width: 1.5em;
     height: 1em;
@@ -409,6 +426,11 @@
     align-items: center;
     flex-direction: column;
     cursor: pointer;
+}
+
+.botonesVolumen:active {
+    width: 1.5em;
+    height: 0.8em;
 }
 
 #volumen {
@@ -460,4 +482,9 @@
     -webkit-box-shadow: inset 3px 4px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: inset 3px 4px 5px 0px rgba(0,0,0,0.75);
 box-shadow: inset 3px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.selectStart:active {
+    width: 2.6em;
+    height: 1em;
 }
