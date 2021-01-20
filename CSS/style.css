@@ -1,0 +1,82 @@
+* {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.psp {
+    height: 16em;
+    width: 40em;
+    display: flex;
+    flex-direction: row;
+}
+
+.parteIzquierda {
+    width: 7em;
+    height: 16em;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.parteCentral {
+    width: 26em;
+    height: 16em;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parteDerecha {
+    width: 7em;
+    height: 16em;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.esquina {
+    width: 5em;
+    height: 3em;
+    border: 1px solid red;
+}
+
+.controlFlechas {
+    width: 7em;
+    height: 10em;
+    border: 1px solid red;
+}
+ 
+.controlBotones {
+    width: 7em;
+    height: 10em;
+    border: 1px solid red;
+}
+
+.pantalla {
+    width: 24em;
+    height: 13em;
+    border: 1px solid red;
+}
+
+.botonesInferiones {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.volumen {
+    display: flex;
+}
