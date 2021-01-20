@@ -71,12 +71,8 @@
     border: 1px solid red;
 }
 
-.botonesInferiones {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-}
-
-.volumen {
-    display: flex;
+.margenPantalla {
+    width: 26em;
+    height: 1.5em;
+    border: 1px solid red;
 }
