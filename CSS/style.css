@@ -410,7 +410,7 @@
 
 
 /* Aquí esta todo sobre la pantalla y sus botones */
-.pantalla {
+#pantalla {
     width: 24.5em;
     height: 13.5em;
     background-color: #808080;

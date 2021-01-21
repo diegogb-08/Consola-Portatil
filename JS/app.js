@@ -12,4 +12,6 @@ start.addEventListener('click', function(){
     let lucecita = document.getElementById('lucecita');
 
     lucecita.style.background = randomColor;
+
+    lucecita.style.transition = "all 5s";
 })
