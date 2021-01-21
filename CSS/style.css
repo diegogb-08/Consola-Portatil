@@ -197,6 +197,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 1em 1em 3em 3em;
+    -webkit-box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
 }
 
 #izquierda {
@@ -207,6 +210,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 1em 3em 3em 1em;
+    -webkit-box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
 }
 
 #abajo {
@@ -217,6 +223,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 3em 3em 1em 1em;
+    -webkit-box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
 }
 
 #derecha {
@@ -227,6 +236,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 3em 1em 1em 3em;
+    -webkit-box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
 }
 
 
@@ -263,19 +275,21 @@
 }
 
 .botonesRedondos {
-    width: 1.6em;
-    height: 1.6em;
-    border: 1px solid black;
+    width: 1.9em;
+    height: 1.9em;
     background-color: black;
     border-radius: 100%;
     display: flex;
     flex-direction: row;
     cursor: pointer;
+    -webkit-box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
 }
 
 .botonesRedondos:active {
-    width: 1.5em;
-    height: 1.5em;
+    width: 1.8em;
+    height: 1.8em;
 }
 
 #triangulo {
@@ -356,7 +370,7 @@
     border-left: 2px solid #fff;
     position: absolute;
     transform: rotate(-45deg);
-    left: 0.7em;
+    left: 0.8em;
 }
 
 .equisInterior::after {
@@ -365,7 +379,7 @@
     border-left: 2px solid #fff;
     position: absolute;
     transform: rotate(90deg);
-    left: -0.1em;
+    left: -0.05em;
 }
 .circuloInterior {
     width: 0.8em;
@@ -519,5 +533,9 @@ box-shadow: inset 3px 4px 5px 0px rgba(0,0,0,0.75);
     border-radius: 3em 0 3em 0;
     background-color: white;
     cursor: pointer;
-    
+}
+
+#logo {
+    max-width: 110%;
+    max-height: 110%;
 }
