@@ -98,7 +98,7 @@
     flex-direction: column;
 }
 
-.lucecita {
+#lucecita {
     width: 1.2em;
     height: 0.7em;
     flex-direction: column;
@@ -106,7 +106,23 @@
     margin-top: 1em;
     margin-left: 0.5em;
     background-color: grey;
+    display: block;
 }
+
+/*
+#lightning {
+    width: 1.2em;
+    height: 0.7em;
+    flex-direction: column;
+    border-radius: 30%;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    background-color: rgb(8, 192, 8);
+    display: none;
+    transition: 2s all;
+}
+
+*/
 
 .botonR1 {
     border-radius: 0 3em 0 3em;
