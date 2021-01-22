@@ -45,7 +45,9 @@
            
             <div class="parteCentral">
                 <div class="margenPantalla" id="superior"></div>
-                <div id="pantalla"></div>
+                <div id="pantalla">
+                    <video id="videoYoutube" src="VIDEO/videoplayback.mp4" type="video/mp4"></video>
+                </div>
 
                 <!-- Esta parte son los botones inferiores-->
 
@@ -74,7 +76,7 @@
                     </div>
                     <div class="botonesPantalla">
                         <div class="botonSelectStart">
-                            <div class="selectStart" id="start">START</div>
+                            <div class="selectStart" onclick="playPause()" id="start">START</div>
                         </div>
                     </div>
                 </div>

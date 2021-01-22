@@ -15,3 +15,12 @@ start.addEventListener('click', function(){
 
     lucecita.style.transition = "all 5s";
 })
+
+var myVideo = document.getElementById("videoYoutube")
+
+function playPause() {
+    if (myVideo.paused)
+    myVideo.play();
+    else
+    myVideo.pause();
+}
