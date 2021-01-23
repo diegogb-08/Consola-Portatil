@@ -103,10 +103,21 @@
     height: 0.7em;
     flex-direction: column;
     border-radius: 30%;
-    margin-top: 1em;
-    margin-left: 0.5em;
+    /* margin-top: 1em;
+    margin-left: 0.5em;*/
     background-color: grey;
-    display: block;
+    position: relative;
+    top: 0.7em;
+    left: 0.7em;
+}
+
+#sony {
+    color: white;
+    font-family: 'play';
+    font-weight: bold;
+    position: relative;
+    top: 0.5em;
+    left: 0.7em;
 }
 
 .botonR1 {
@@ -242,8 +253,6 @@
     box-shadow: inset 0px 0px 3px 1px rgba(255,255,255,1);
 }
 
-
-
  /* Botones derechos (X O <> /\) */
 .controlBotones {
     width: 7em;
@@ -365,22 +374,25 @@
     top: 0.35em;
 }
 
+
 .equisInterior {
     content: '';
-    height: 1em;
+    height: 1.1em;
     border-left: 2px solid #fff;
     position: absolute;
     transform: rotate(-45deg);
-    left: 0.8em;
+    bottom: 0.4em;
+   /* left: 0.8em;*/
 }
 
 .equisInterior::after {
     content: '';
     height: 1.1em;
-    border-left: 2px solid #fff;
+    border-left: 2px solid rgb(255, 255, 255);
     position: absolute;
     transform: rotate(90deg);
-    left: -0.05em;
+    right: 0.05em;
+    top: 1.05;
 }
 .circuloInterior {
     width: 0.8em;
@@ -477,7 +489,7 @@
     font-size: 0.75em;
     margin-left: 0.4em;
     margin-right: 0.4em;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
@@ -489,7 +501,7 @@
 #psp {
     font-family: 'Play';
     font-size: 1.7em;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .botonSelectStart {
